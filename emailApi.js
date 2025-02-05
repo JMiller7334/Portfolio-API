@@ -7,10 +7,6 @@ const port = 8081;
 app.use(cors());
 app.use(express.json()); //parse for json
 
-//fetch env variable
-require('dotenv').config();
-const vpsIp = process.env.VPS_IP;
-
 app.post('/send-email', async (req, res) => {
     try {
         const { name, email, message } = req.body;
@@ -20,7 +16,7 @@ app.post('/send-email', async (req, res) => {
             message
         };
         //handle contacting server php:
-        const response = await axios.post('http://'+vpsIp+'/portfolio-api/public/email.php', requestData, {
+        const response = await axios.post('http://VPS-SERVER-IP-HERE/portfolio-api/public/email.php', requestData, {
             headers: {
                 'Content-Type': 'application/json'
             }
