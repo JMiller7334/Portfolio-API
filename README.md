@@ -7,8 +7,8 @@ directs them to my VPS IP where my PHP services can finish handling them.
 
 ### Technologies Used:
 * JavaScript
-* Node.js
 * Express.js
+* Node.js
 * Axios
 
 ### Related Projects:
