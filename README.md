@@ -39,7 +39,7 @@ curl -X POST http://jacobjmiller.com:8081/send-email \
   "message": "Hello, this is a test message!"
 }
 ```
-**Response**
+**Response:**
 * Success:
 ``` json
 {
