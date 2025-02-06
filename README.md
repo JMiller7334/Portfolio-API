@@ -1,6 +1,6 @@
 # Portfolio-API
 A simple RESTful API that handles email submissions for my portfolio website.
-This API acts as gateway for my backend PHP which resides on my VPS Server. This API receives request via my domain and
+This API acts as a gateway for my backend PHP which resides on my VPS Server. This API receives request via my domain and
 directs them to my VPS IP where my PHP services can finish handling them. 
 
 *  **⚠ IMPORTANT: See Configuration for information on pointing this API to an IP.**
