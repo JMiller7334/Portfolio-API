@@ -1,6 +1,6 @@
 # Portfolio-API
 A simple RESTful API that handles email submissions for my portfolio website.
-This API receives request via my domain and
+This API receives request by using my domain as an endpoint and
 directs them to my VPS IP where my PHP services can finish handling them.
 
 *  **⚠ IMPORTANT: See Configuration for information on pointing this API to an IP.**
